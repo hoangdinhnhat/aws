@@ -15,19 +15,19 @@ pre : " <b> 3.2.3 </b> "
   + Click **Security**.
   + Click **Modify IAM Role**.
 
-![Connect](/images/3.connect/027-ec2role.png)
+![Connect](images/3.connect/027-ec2role.png)
 
 2. At the **Modify IAM Role** page.
   + In the IAM role section, select **SSM-Role**.
   + Click **Save**.
 
-![Connect](/images/3.connect/028-ec2role.png)
+![Connect](images/3.connect/028-ec2role.png)
 
 3. Click **Private Windows Instance**.
   + Click **Instance state**.
   + Click **Reboot instance** to restart, then click **Reboot** to confirm.
 
-![Connect](/images/3.connect/029-ec2role.png)
+![Connect](images/3.connect/029-ec2role.png)
 
 {{% notice note %}}
 Please wait 5 minutes before doing the next step.
@@ -43,4 +43,4 @@ Please wait 5 minutes before doing the next step.
 
 3. Type **ipconfig** command to check the IP address information of **Private Windows Instance** as shown below.
 
-![Connect](/images/3.connect/030-ec2role.png)
+![Connect](images/3.connect/030-ec2role.png)

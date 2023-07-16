@@ -14,13 +14,13 @@ pre : " <b> 2.1.6 </b> "
   + Drag the mouse down.
   + Click **Select** to select AMI **Microsoft Windows Server 2019 Base**.
   
-![EC2](/images/2.prerequisite/034-createec2.png)
+![EC2](images/2.prerequisite/034-createec2.png)
 
 3. On the **Step 2: Choose an Instance Type** page.
  + Click on Instance type **t2.micro**.
  + Click **Next: Configure Instance Details**.
  
-![EC2](/images/2.prerequisite/029-createec2.png)
+![EC2](images/2.prerequisite/029-createec2.png)
 
 4. At **Step 3: Configure Instance Details** page
   + In the **Network** section, select **Lab VPC**.
@@ -28,7 +28,7 @@ pre : " <b> 2.1.6 </b> "
   + At **Auto-assign Public IP** select **Use subnet setting (Disable)**
   + Click **Next: Add Storage**.
 
-![EC2](/images/2.prerequisite/035-createec2.png)
+![EC2](images/2.prerequisite/035-createec2.png)
 
 5. Click **Next: Add Tags** to move to the next step.
   + Click **Next: Configure Security Group** to move to the next step.
@@ -39,7 +39,7 @@ pre : " <b> 2.1.6 </b> "
   + Select security group **SG Private Windows Instance**.
   + Click **Review and Launch**.
 
-![EC2](/images/2.prerequisite/036-createec2.png)
+![EC2](images/2.prerequisite/036-createec2.png)
 
 7. The warning dialog box appears because we do not configure the firewall to allow connections to port 22, Click **Continue** to continue.
 
@@ -58,6 +58,6 @@ pre : " <b> 2.1.6 </b> "
   + In the **Edit Name** dialog box, enter **Private Windows Instance**.
   + Click **Save**.
 
-![EC2](/images/2.prerequisite/033-createec2.png)
+![EC2](images/2.prerequisite/033-createec2.png)
 
 Next, we will proceed to create IAM Roles to serve the Session Manager.

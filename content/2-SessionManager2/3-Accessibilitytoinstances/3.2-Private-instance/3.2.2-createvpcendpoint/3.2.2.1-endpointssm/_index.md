@@ -13,7 +13,7 @@ pre : " <b> 3.2.2.1 </b> "
   + Click **Endpoints**.
   + Click **Create endpoint**.
   
-![Connect](/images/3.connect/005-connect.png)
+![Connect](images/3.connect/005-connect.png)
 
 2. At the **Create endpoint** page.
   + In the **Name tag** field, enter **SSM**.
@@ -22,19 +22,19 @@ pre : " <b> 3.2.2.1 </b> "
   + In the **Service category** section, select: **AWS services**
   + In the **Service Name** section enter: **SSM** then select **Service Name: com.amazonaws.ap-southeast-1.ssm**.
 
-![Connect](/images/3.connect/006-connect.png)
+![Connect](images/3.connect/006-connect.png)
 
 3. In the **Service Name** column, click **com.amazonaws.ap-southeast-1.ssm**.
   + In the **VPC** section, select **Lab VPC**.
   + Select the first AZ, then select the **Lab Private Subnet** subnet.
   
-![Connect](/images/3.connect/007-connect.png)
+![Connect](images/3.connect/007-connect.png)
 
 4. Scroll down.
   + In the **Security Group** section, select the Security group **SG VPC Endpoint** that we created earlier.
   + In the **Policy** section, select **Full access**.
 
-![Connect](/images/3.connect/008-connect.png)
+![Connect](images/3.connect/008-connect.png)
 
 5. Scroll down.
   + Click **Create endpoint**.
@@ -42,4 +42,4 @@ pre : " <b> 3.2.2.1 </b> "
 6. We have created the VPC Interface Endpoint for **SSM**.
 
 
-![Connect](/images/3.connect/011-connect.png)
+![Connect](images/3.connect/011-connect.png)

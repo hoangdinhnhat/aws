@@ -7,7 +7,7 @@
     <meta name="description" content="">
 <meta name="author" content="journeyoftheaverageguy@gmail.com">
 
-    <link rel="icon" href="/images/favicon.png" type="image/png">
+    <link rel="icon" href="images/favicon.png" type="image/png">
 
     <title>Tạo kết nối đến máy chủ EC2 Private :: AWS System Manager</title>
 
@@ -1108,7 +1108,7 @@
 Với loại instance này, cách làm truyền thống là ta sẽ sử dụng kỹ thuật Bastion host tốn nhiều chi phí và công sức, nhưng ở đây chúng ta sẽ sử dụng Session Manager với loại này.<br>
 Cơ bản là <strong>private instance</strong> vẫn phải mở cổng <strong>TCP 443</strong> tới <strong>System Manager</strong>, nhưng không cho kết nối đó đi ra ngoài internet mà chỉ cho đi trong chính VPC của mình, nên đảm bảo được vấn đề bảo mật.<br>
 Để làm được điều đó, ta phải đưa endpoint của System Manager vào trong VPC, nghĩa là sử dụng <strong>VPC interface endpoint:</strong></p>
-<p><img src="/images/arc-03.png" alt="ConnectPrivate"></p>
+<p><img src="images/arc-03.png" alt="ConnectPrivate"></p>
 <p><strong>VPC interface endpoint</strong> được gắn với subnet nên cách làm này không những với <strong>private subnet</strong> mà còn có thể làm với <strong>public subnet</strong>, nghĩa là với <strong>public subnet</strong>, bạn hoàn toàn có thể không cho <strong>TCP 443</strong> đi ra ngoài internet.</p>
 <h3 id="nôi-dung">Nội dung:</h3>
 <ul>

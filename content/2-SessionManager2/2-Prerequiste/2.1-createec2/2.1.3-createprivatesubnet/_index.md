@@ -11,7 +11,7 @@ pre : " <b> 2.1.3 </b> "
 1. Click **Subnets**.
    + Click **Create subnet**.
 
-![VPC](/images/2.prerequisite/017-createsubnet.png)
+![VPC](images/2.prerequisite/017-createsubnet.png)
 
 2. At the **Create subnet** page.
    + In the **VPC ID** section, click **Lab VPC**.
@@ -19,7 +19,7 @@ pre : " <b> 2.1.3 </b> "
    + In the **Availability Zone** section, select the first Availability zone.
    + In the field **IPv4 CIRD block** enter **10.10.2.0/24**.
 
-![VPC](/images/2.prerequisite/018-createsubnet.png)
+![VPC](images/2.prerequisite/018-createsubnet.png)
 
 3. Scroll to the bottom of the page, click **Create subnet**.
 

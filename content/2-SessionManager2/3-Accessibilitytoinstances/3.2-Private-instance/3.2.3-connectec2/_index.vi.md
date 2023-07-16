@@ -15,19 +15,19 @@ pre : " <b> 3.2.3 </b> "
   + Click **Security**.
   + Click **Modify IAM Role**.
 
-![Connect](/images/3.connect/027-ec2role.png)
+![Connect](images/3.connect/027-ec2role.png)
 
 2. Tại trang **Modify IAM Role**.
   + Tại mục IAM role, chọn **SSM-Role**.
   + Click **Save**.
 
-![Connect](/images/3.connect/028-ec2role.png)
+![Connect](images/3.connect/028-ec2role.png)
 
 3. Click chọn **Private Windows Instance**.
   + Click **Instance state**.
   + Click **Reboot instance** để thực hiện restart, sau đó click **Reboot** để xác nhận.
 
-![Connect](/images/3.connect/029-ec2role.png)
+![Connect](images/3.connect/029-ec2role.png)
 
 {{% notice note %}}
 Bạn hãy đợi 5 phút trước khi làm bước tiếp theo nhé.
@@ -43,4 +43,4 @@ Bạn hãy đợi 5 phút trước khi làm bước tiếp theo nhé.
 
 3. Gõ lệnh **ipconfig** để kiểm tra thông tin địa chỉ IP  của **Private Windows Instance** như dưới đây.
 
-![Connect](/images/3.connect/030-ec2role.png)
+![Connect](images/3.connect/030-ec2role.png)

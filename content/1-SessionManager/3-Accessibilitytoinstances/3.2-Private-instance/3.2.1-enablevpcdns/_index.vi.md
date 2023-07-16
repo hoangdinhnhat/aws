@@ -16,10 +16,10 @@ pre : " <b> 3.2.1 </b> "
 
  + Click **Endpoint**, sau đó click **Create Endpoint**.
 
-![Connect](/images/3.connect/009-connect.png)
+![Connect](images/3.connect/009-connect.png)
 
 2. Tại trang **Edit DNS hostnames**.
   + Click chọn **Enable**.
   + Click **Save changes**.
 
-![Connect](/images/3.connect/010-connect.png)
+![Connect](images/3.connect/010-connect.png)

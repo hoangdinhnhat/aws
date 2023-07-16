@@ -20,13 +20,13 @@ pre : " <b> 3.2.2.3 </b> "
   + In the **Service category** select: **AWS services**
   + In the field **Service Name** enter: **ec2** then select **Service Name: com.amazonaws.ap-southeast-1.ec2messages**.
 
-![Connect](/images/3.connect/015-connect.png)
+![Connect](images/3.connect/015-connect.png)
 
 3. In the **Service Name** column, click **com.amazonaws.ap-southeast-1.ec2messages**.
   + In the **VPC** section, select **Lab VPC**.
   + Select the first AZ, then select the **Lab Private Subnet** subnet.
   
-![Connect](/images/3.connect/016-connect.png)
+![Connect](images/3.connect/016-connect.png)
 
 4. Scroll down.
   + In the **Security Group** section, select the Security group **SG VPC Endpoint** that we created earlier.
@@ -39,4 +39,4 @@ pre : " <b> 3.2.2.3 </b> "
 
 7. Make sure the 3 required endpoints have been created as shown below.
 
-![Connect](/images/3.connect/018-connect.png)
+![Connect](images/3.connect/018-connect.png)

@@ -20,13 +20,13 @@ pre : " <b> 3.2.2.2 </b> "
   + In the **Service category** select: **AWS services**
   + In the **Service Name** field enter: **ssmmessages** then select **Service Name: com.amazonaws.ap-southeast-1.ssmmessages**.
 
-![Connect](/images/3.connect/012-connect.png)
+![Connect](images/3.connect/012-connect.png)
 
 3. In the **Service Name** column, click **com.amazonaws.ap-southeast-1.ssmmessages**.
   + In the **VPC** section, select **Lab VPC**.
   + Select the first AZ, then select the **Lab Private Subnet** subnet.
   
-![Connect](/images/3.connect/013-connect.png)
+![Connect](images/3.connect/013-connect.png)
 
 4. Scroll down.
   + In the **Security Group** section, select the Security group **SG VPC Endpoint** that we created earlier.

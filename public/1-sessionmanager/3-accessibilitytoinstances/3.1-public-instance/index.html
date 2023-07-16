@@ -7,7 +7,7 @@
     <meta name="description" content="">
 <meta name="author" content="journeyoftheaverageguy@gmail.com">
 
-    <link rel="icon" href="/images/favicon.png" type="image/png">
+    <link rel="icon" href="images/favicon.png" type="image/png">
 
     <title>Connect to Public Instance :: AWS System Manager</title>
 
@@ -1096,7 +1096,7 @@
 
 
 
-	<p><img src="/images/arc-02.png" alt="SSMPublicinstance"></p>
+	<p><img src="images/arc-02.png" alt="SSMPublicinstance"></p>
 <ol>
 <li>Go to <a href="https://console.aws.amazon.com/ec2/v2/home">EC2 service management console</a>.</li>
 </ol>
@@ -1106,7 +1106,7 @@
 <li>Click <strong>Security</strong>.</li>
 <li>Click <strong>Modify IAM role</strong>.</li>
 </ul>
-<p><img src="/images/3.connect/001-connect.png" alt="Connect"></p>
+<p><img src="images/3.connect/001-connect.png" alt="Connect"></p>
 <ol start="2">
 <li>At the Modify IAM role page.</li>
 </ol>
@@ -1126,15 +1126,15 @@
 <li>Click <strong>Session Manager</strong>.</li>
 <li>Click <strong>Start Session</strong>.</li>
 </ul>
-<p><img src="/images/3.connect/002-connect.png" alt="Connect"></p>
+<p><img src="images/3.connect/002-connect.png" alt="Connect"></p>
 <ol start="4">
 <li>Then select <strong>Public Linux Instance</strong> and click <strong>Start session</strong> to access the instance.</li>
 </ol>
-<p><img src="/images/3.connect/003-connect.png" alt="Connect"></p>
+<p><img src="images/3.connect/003-connect.png" alt="Connect"></p>
 <ol start="5">
 <li>Terminal will appear on the browser. Testing with the command <code>sudo tcpdump -nn port 22</code> and <code>sudo tcpdump </code> we will see no SSH traffic but only HTTPS traffic.</li>
 </ol>
-<p><img src="/images/3.connect/004-connect.png" alt="Connect"></p>
+<p><img src="images/3.connect/004-connect.png" alt="Connect"></p>
 
 <div class="notices note" ><p>Above, we have created a connection to the public instance without opening SSH port 22, for better security, avoiding any attack to the SSH port.<br>
 One disadvantage of the above method is that we have to open the Security Group outbound at port 443 to the internet. Since it&rsquo;s a public instance, it probably won&rsquo;t be a problem, but if you want extra security, you can block port 443 to the internet and still use the Session Manager. We will go through this in the private instance section below.</p>
