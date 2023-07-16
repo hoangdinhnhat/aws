@@ -15,17 +15,17 @@ pre : " <b> 4.1 </b> "
   + Tại ô tìm kiếm , điền **SSM**.
   + Click vào role **SSM-Role**.
 
-![S3](images/4.s3/002-s3.png)
+![S3](/aws/images/4.s3/002-s3.png)
 
 2. Click **Attach policies**.
  
-![S3](images/4.s3/003-s3.png)
+![S3](/aws/images/4.s3/003-s3.png)
 
 3. Tại ô Search điền **S3**.
   + Click chọn policy **AmazonS3FullAccess**.
   + Click **Attach policy**.
  
-![S3](images/4.s3/004-s3.png)
+![S3](/aws/images/4.s3/004-s3.png)
  
 {{%notice tip%}}
 Trong thực tế chúng ta sẽ cấp quyền chặt chẽ hơn tới S3 bucket chỉ định. Trong khuôn khổ bài lab này chúng ta sử dụng policy **AmazonS3FullAccess** cho tiện dụng.

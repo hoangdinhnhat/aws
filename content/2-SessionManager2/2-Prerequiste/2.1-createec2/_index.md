@@ -10,7 +10,7 @@ In this step, we will need to create a VPC with 2 public / private subnets. Then
 
 The architecture overview after you complete this step will be as follows:
 
-![VPC](images/arc-01.png)
+![VPC](/aws/images/arc-01.png)
 
 To learn how to create EC2 instances and VPCs with public/private subnets, you can refer to the lab:
   - [About Amazon EC2](https://000004.awsstudygroup.com/en/)

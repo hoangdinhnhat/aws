@@ -7,7 +7,7 @@
     <meta name="description" content="">
 <meta name="author" content="journeyoftheaverageguy@gmail.com">
 
-    <link rel="icon" href="images/favicon.png" type="image/png">
+    <link rel="icon" href="/aws/images/favicon.png" type="image/png">
 
     <title>Port Forwarding :: AWS System Manager</title>
 
@@ -1103,7 +1103,7 @@
 </div>
 
 <p>Chúng ta sẽ cấu hình <strong>Port Forwarding</strong> cho kết nối RDP giữa máy của mình với <strong>Private Windows Instance</strong> nằm trong private subnet mà chúng ta đã tạo cho bài thực hành này.</p>
-<p><img src="images/arc-04.png" alt="port-fwd"></p>
+<p><img src="/aws/images/arc-04.png" alt="port-fwd"></p>
 <h4 id="tạo-iam-user-có-quyền-kết-nối-ssm">Tạo IAM User có quyền kết nối SSM</h4>
 <ol>
 <li>Truy cập vào <a href="https://console.aws.amazon.com/iamv2/home">giao diện quản trị dịch vụ IAM</a></li>
@@ -1111,7 +1111,7 @@
 <ul>
 <li>Click <strong>Users</strong> , sau đó click <strong>Add users</strong>.</li>
 </ul>
-<p><img src="images/5.fwd/001-fwd.png" alt="FWD"></p>
+<p><img src="/aws/images/5.fwd/001-fwd.png" alt="FWD"></p>
 <ol start="2">
 <li>Tại trang <strong>Add user</strong>.</li>
 </ol>
@@ -1120,7 +1120,7 @@
 <li>Click chọn <strong>Access key - Programmatic access</strong>.</li>
 <li>Click <strong>Next: Permissions</strong>.</li>
 </ul>
-<p><img src="images/5.fwd/002-fwd.png" alt="FWD"></p>
+<p><img src="/aws/images/5.fwd/002-fwd.png" alt="FWD"></p>
 <ol start="3">
 <li>Click <strong>Attach existing policies directly</strong>.</li>
 </ol>
@@ -1165,7 +1165,7 @@ Chứng tỏ bạn chưa cài Session Manager Plugin thành công. Bạn có th�
 <ul>
 <li>Tại mục Computer: điền <strong>localhost:9999</strong>.</li>
 </ul>
-<p><img src="images/5.fwd/003-fwd.png" alt="FWD"></p>
+<p><img src="/aws/images/5.fwd/003-fwd.png" alt="FWD"></p>
 <ol start="3">
 <li>Quay trở lại giao diện quản trị của dịch vụ System Manager - Session Manager.</li>
 </ol>
@@ -1173,7 +1173,7 @@ Chứng tỏ bạn chưa cài Session Manager Plugin thành công. Bạn có th�
 <li>Click tab <strong>Session history</strong>.</li>
 <li>Chúng ta sẽ thấy các session logs với tên Document là <strong>AWS-StartPortForwardingSession</strong>.</li>
 </ul>
-<p><img src="images/5.fwd/004-fwd.png" alt="FWD"></p>
+<p><img src="/aws/images/5.fwd/004-fwd.png" alt="FWD"></p>
 <p>Chúc mừng bạn đã hoàn tất bài thực hành hướng dẫn cách sử dụng Session Manager để kết nối cũng như lưu trữ các session logs trong S3 bucket. Hãy nhớ thực hiện bước dọn dẹp tài nguyên để tránh sinh chi phí ngoài ý muốn nhé.</p>
 
 

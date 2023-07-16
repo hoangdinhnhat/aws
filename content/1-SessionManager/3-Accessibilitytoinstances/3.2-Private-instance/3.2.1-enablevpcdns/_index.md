@@ -16,10 +16,10 @@ pre : " <b> 3.2.1 </b> "
 
   + Click **Endpoint**, then click **Create Endpoint**.
 
-![Connect](images/3.connect/009-connect.png)
+![Connect](/aws/images/3.connect/009-connect.png)
 
 2. At the **Edit DNS hostnames** page.
    + Click to select **Enable**.
    + Click **Save changes**.
 
-![Connect](images/3.connect/010-connect.png)
+![Connect](/aws/images/3.connect/010-connect.png)

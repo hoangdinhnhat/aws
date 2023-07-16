@@ -10,18 +10,18 @@ pre : " <b> 2.1.5 </b> "
   + Click **Instances**.
   + Click **Launch instances**.
   
-![EC2](images/2.prerequisite/027-createec2.png)
+![EC2](/aws/images/2.prerequisite/027-createec2.png)
 
 2. On the **Step 1: Choose an Amazon Machine Image (AMI)** page.
   + Click **Select** to select AMI **Amazon Linux 2 AMI**.
   
-![EC2](images/2.prerequisite/028-createec2.png)
+![EC2](/aws/images/2.prerequisite/028-createec2.png)
 
 3. On the **Step 2: Choose an Instance Type** page.
  + Click on Instance type **t2.micro**.
  + Click **Next: Configure Instance Details**.
  
-![EC2](images/2.prerequisite/029-createec2.png)
+![EC2](/aws/images/2.prerequisite/029-createec2.png)
 
 4. At **Step 3: Configure Instance Details** page
   + In the **Network** section, select **Lab VPC**.
@@ -29,7 +29,7 @@ pre : " <b> 2.1.5 </b> "
   + In the **Auto-assign Public IP** section, select **Use subnet setting (Enable)**
   + Click **Next: Add Storage**.
 
-![EC2](images/2.prerequisite/030-createec2.png)
+![EC2](/aws/images/2.prerequisite/030-createec2.png)
 
 5. Click **Next: Add Tags** to move to the next step.
   + Click **Next: Configure Security Group** to move to the next step.
@@ -40,7 +40,7 @@ pre : " <b> 2.1.5 </b> "
   + Select security group **SG Public Linux Instance**.
   + Click **Review and Launch**.
 
-![EC2](images/2.prerequisite/031-createec2.png)
+![EC2](/aws/images/2.prerequisite/031-createec2.png)
 
 7. The warning dialog box appears because we do not configure the firewall to allow connections to port 22, Click **Continue** to continue.
 
@@ -53,7 +53,7 @@ pre : " <b> 2.1.5 </b> "
   + Click **Download Key Pair** and save it to your computer.
   + Click **Launch Instances** to create EC2 server.
 
-![EC2](images/2.prerequisite/032-createec2.png)
+![EC2](/aws/images/2.prerequisite/032-createec2.png)
 
 10. Click **View Instances** to return to the list of EC2 instances.
 
@@ -61,6 +61,6 @@ pre : " <b> 2.1.5 </b> "
   + In the **Edit Name** dialog box, enter **Public Linux Instance**.
   + Click **Save**.
 
-![EC2](images/2.prerequisite/033-createec2.png)
+![EC2](/aws/images/2.prerequisite/033-createec2.png)
 
 Next, we will do the same to create an EC2 Instance Windows running in the Private subnet.

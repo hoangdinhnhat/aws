@@ -7,7 +7,7 @@
     <meta name="description" content="">
 <meta name="author" content="journeyoftheaverageguy@gmail.com">
 
-    <link rel="icon" href="images/favicon.png" type="image/png">
+    <link rel="icon" href="/aws/images/favicon.png" type="image/png">
 
     <title>Kết nối đến máy chủ Public :: AWS System Manager</title>
 
@@ -1096,7 +1096,7 @@
 
 
 
-	<p><img src="images/arc-02.png" alt="SSMPublicinstance"></p>
+	<p><img src="/aws/images/arc-02.png" alt="SSMPublicinstance"></p>
 <ol>
 <li>Truy cập vào <a href="https://console.aws.amazon.com/ec2/v2/home">giao diện quản trị của dịch vụ EC2</a>.</li>
 </ol>
@@ -1106,7 +1106,7 @@
 <li>Click <strong>Security</strong>.</li>
 <li>Click <strong>Modify IAM role</strong>.</li>
 </ul>
-<p><img src="images/3.connect/001-connect.png" alt="Connect"></p>
+<p><img src="/aws/images/3.connect/001-connect.png" alt="Connect"></p>
 <ol start="2">
 <li>Tại trang Modify IAM role.</li>
 </ol>
@@ -1126,15 +1126,15 @@
 <li>Click <strong>Session Manager</strong>.</li>
 <li>Click <strong>Start Session</strong>.</li>
 </ul>
-<p><img src="images/3.connect/002-connect.png" alt="Connect"></p>
+<p><img src="/aws/images/3.connect/002-connect.png" alt="Connect"></p>
 <ol start="4">
 <li>Sau đó chọn <strong>Public Linux Instance</strong> và click <strong>Start session</strong> để truy cập vào instance.</li>
 </ol>
-<p><img src="images/3.connect/003-connect.png" alt="Connect"></p>
+<p><img src="/aws/images/3.connect/003-connect.png" alt="Connect"></p>
 <ol start="5">
 <li>Terminal sẽ xuất hiện trên trình duyệt. Kiểm tra với câu lệnh <code>sudo tcpdump -nn port 22</code> và <code>sudo tcpdump </code> chúng ta sẽ thấy không có traffic của SSH mà chỉ có traffic HTTPS.</li>
 </ol>
-<p><img src="images/3.connect/004-connect.png" alt="Connect"></p>
+<p><img src="/aws/images/3.connect/004-connect.png" alt="Connect"></p>
 
 <div class="notices note" ><p>Ở trên, chúng ta đã tạo  kết nối vào public instance mà không cần mở cổng SSH 22, giúp cho việc bảo mật tốt hơn, tránh mọi sự tấn công tới cổng SSH.<br>
 Một nhược điểm của cách làm trên là ta phải mở Security Group outbound ở cổng 443 ra ngoài internet. Vì là public instance nên có thể sẽ không vấn đề gì nhưng nếu bạn muốn bảo mật hơn nữa, bạn có thể khoá cổng 443 ra ngoài internet mà vẫn sử dụng được Session Manager. Chúng ta sẽ đi qua cách làm này ở phần private instance dưới đây.</p>

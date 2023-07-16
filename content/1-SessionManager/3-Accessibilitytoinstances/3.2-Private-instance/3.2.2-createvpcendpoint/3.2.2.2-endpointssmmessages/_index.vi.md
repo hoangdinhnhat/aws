@@ -20,13 +20,13 @@ pre : " <b> 3.2.2.2 </b> "
   + Tại mục **Service category** chọn:  **AWS services**
   + Tại mục **Service Name** nhập: **ssmmessages** sau đó chọn **Service Name: com.amazonaws.ap-southeast-1.ssmmessages**.
 
-![Connect](images/3.connect/012-connect.png)
+![Connect](/aws/images/3.connect/012-connect.png)
 
 3. Tại cột **Service Name**, click chọn **com.amazonaws.ap-southeast-1.ssmmessages**.
   + Tại mục **VPC**, chọn **Lab VPC**.
   + Chọn AZ đầu tiên, sau đó chọn subnet **Lab Private Subnet**.
   
-![Connect](images/3.connect/013-connect.png)
+![Connect](/aws/images/3.connect/013-connect.png)
 
 4. Kéo chuột xuống dưới.
   + Tại mục **Security Group**, chọn Security group **SG VPC Endpoint** mà chúng ta đã tạo trước đó.

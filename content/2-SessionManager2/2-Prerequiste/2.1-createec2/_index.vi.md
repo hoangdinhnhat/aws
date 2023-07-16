@@ -10,7 +10,7 @@ Trong bước này, chúng ta sẽ cần tạo một VPC có 2 subnet public / p
 
 Tổng quan kiến trúc sau khi các bạn hoàn tất bước này sẽ như sau:
 
-![VPC](images/arc-01.png)
+![VPC](/aws/images/arc-01.png)
 
 Để tìm hiểu cách tạo các EC2 instance và VPC với public/private subnet các bạn có thể tham khảo bài lab :
   - [Giới thiệu về Amazon EC2](https://000004.awsstudygroup.com/vi/)
